@@ -71,7 +71,7 @@ class Don_Security_Options {
      * Function that will add the options page under Setting Menu.
      */
     public function add_page() { 
-        add_options_page( __('Security', 'don-security'), __('Security', 'don-security'), 'manage_options', 'don_security_settings_options', array( $this, 'display_page' ) );
+        add_options_page( __('Don Security', 'don-security'), __('Don Security', 'don-security'), 'manage_options', 'don_security_settings_options', array( $this, 'display_page' ) );
     }
 
     /**
@@ -119,7 +119,7 @@ class Don_Security_Options {
         add_settings_field( 'ds_remove_version_number', __('Remove version number', 'don-security'), array( $this, 'ds_remove_version_number_field' ), 'don_security_settings_options', 'don_security_section' ); 
 
         // Add Stop plugin enumeration
-        add_settings_field( 'ds_stop_plugin_enumeration', __('Stop plugin enumeration', 'don-security'), array( $this, 'ds_stop_plugin_enumeration_field' ), 'don_security_settings_options', 'don_security_section' ); 
+        add_settings_field( 'ds_stop_plugin_enumeration', __('Prevent plugin enumeration', 'don-security'), array( $this, 'ds_stop_plugin_enumeration_field' ), 'don_security_settings_options', 'don_security_section' ); 
 
         // Add Prevent username enumeration
         add_settings_field( 'ds_prevent_username_enumeration', __('Prevent username enumeration', 'don-security'), array( $this, 'ds_prevent_username_enumeration_field' ), 'don_security_settings_options', 'don_security_section' ); 
