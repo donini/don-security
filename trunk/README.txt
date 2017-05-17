@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: rodrigodonini
 Donate link: http://profiles.wordpress.org/rodrigodonini
-Tags: secutrity, wpscan, xml-rpc, robots, version, agents, fingerprint, enumeration, wpconfig
+Tags: don-secutrity, don secutrity, secutrity, wpscan, xml-rpc, robots, version, agents, fingerprint, enumeration, wpconfig
 Requires at least: 3.0.1
 Tested up to: 4.7.4
 License: GPLv2 or later
@@ -41,5 +41,8 @@ This section describes how to install the plugin and get it working.
  
 == Changelog ==
 
-= 0.1.1 =
+= 1.0.1 =
+* Adding translate support, starting with English and Portuguese Brazil
+
+= 1.0.0 =
 * First version published. 
