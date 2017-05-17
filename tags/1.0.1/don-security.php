@@ -8,7 +8,7 @@
  * Plugin Name:       Don Security
  * Plugin URI:        https://wordpress.org/plugins/don-security
  * Description:       This plugin allows to set some security improvements to your WordPress site.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Rodrigo Donini
  * Author URI:        http://profiles.wordpress.org/rodrigodonini
  * License:           GPL-2.0+
